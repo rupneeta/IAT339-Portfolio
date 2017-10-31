@@ -1,0 +1,43 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.flexbox .grid-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+
+.flexbox [class^='grid-col-']{
+	float: none;
+}
+
+
+.grid-col-1of2{
+	width: 50%;
+}
+
+.flexbox .grid-col-1of2{
+	flex-grow: 1;
+	width:auto;
+}
+
+.grid-col-1of3{
+  width: 45%;
+}
+
+.grid-col-2of3{
+  width: 55%;
+}

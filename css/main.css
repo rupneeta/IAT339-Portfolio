@@ -1,0 +1,144 @@
+
+body{
+  font-family: "Proxima Nova", Times, serif;
+  color: #FAFAFC;
+  background: #1C1C1E;
+  margin: 0;
+  letter-spacing: .07em;
+}
+
+.title-headings{
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.sub-headings{
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  margin: 2rem 1rem 1rem 1rem;
+  padding: 1rem;
+  color: #D1D1D1;
+  border-bottom: 2px solid #D1D1D1;
+}
+
+.project-heading{
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  text-align: center;
+  margin: 2rem 1rem 1rem 1rem;
+  padding: 1rem;
+  color: #1C1C1E;
+}
+
+.project-info-text{
+  font-size: 1rem;
+  font-weight: normal;
+  color: #535354;
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+#blue-1{
+  height:150px;
+  background:#4820F2;
+}
+
+#blue-2{
+  height:150px;
+  background:#7679F9;
+}
+
+#blue-3{
+  height:150px;
+  background:#A4D2FF;
+}
+
+#black-1{
+  height:150px;
+  background:#1C1C1E;
+}
+
+#black-2{
+  height:150px;
+  background:#FAFAFC;
+}
+
+#black-3{
+  height:150px;
+  background:#36FFFF;
+}
+
+.project-placeholder{
+  margin: 0;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height:600px;
+  background: #A4D2FF;
+}
+
+.background-inverse-container{
+  display: inline-block;
+  width: 100%;
+  margin: 3rem 0 3rem 0;
+  color:#1C1C1E;
+  background: #FAFAFC;
+
+}
+
+.inverse-text{
+  color: #1C1C1E;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 1rem 0rem 0rem 1rem;
+}
+
+.project-info-block{
+  display: block;
+}
+
+.project-image-block{
+  display: block;
+  margin: 0;
+}
+
+.blocks{
+  font-size: 1rem;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color:white;
+  letter-spacing: 5px;
+  padding: 4rem;
+}
+
+.blocks-inverse{
+  font-size: 1rem;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color:#1C1C1E;
+  letter-spacing: 5px;
+  padding: 4rem;
+}
+
+.u-list-header{
+  color: #1C1C1E;
+  font-size: 1.5rem;
+  font-weight:bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+.u-list-item{
+  list-style-type: circle;
+  text-transform: none;
+  font-weight:normal;
+  font-size: 1rem;
+  margin-left: 3rem;
+  padding: .5rem;
+  text-transform: uppercase;
+}
