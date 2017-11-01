@@ -43,31 +43,43 @@ body{
 #blue-1{
   height:150px;
   background:#4820F2;
+  box-shadow: 0px 7px 20px black;
+
 }
 
 #blue-2{
   height:150px;
   background:#7679F9;
+  box-shadow: 0px 7px 20px black;
+
 }
 
 #blue-3{
   height:150px;
   background:#A4D2FF;
+  box-shadow: 0px 7px 20px black;
+
 }
 
 #black-1{
   height:150px;
   background:#1C1C1E;
+  box-shadow: 0px 7px 20px black;
+
 }
 
 #black-2{
   height:150px;
   background:#FAFAFC;
+  box-shadow: 0px 7px 20px black;
+
 }
 
 #black-3{
   height:150px;
   background:#36FFFF;
+  box-shadow: 0px 7px 20px black;
+
 }
 
 .project-placeholder{
@@ -86,6 +98,8 @@ body{
   margin: 3rem 0 3rem 0;
   color:#1C1C1E;
   background: #FAFAFC;
+  box-shadow: 0px 7px 20px black;
+
 }
 
 .background-container{
@@ -134,6 +148,7 @@ body{
 .u-list-header{
   color: #1C1C1E;
   font-size: 1.5rem;
+  padding: 0 1rem 0 3rem;
   font-weight:bold;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -179,24 +194,42 @@ body{
   display: inline-block;
 }
 
-.nav-text:hover{
-  opacity: 1;
-  cursor: pointer;
-  /*text-align: center;*/
-}
 
 .nav-text{
   color: #36FFFF;
   opacity: .75;
   text-align: left;
-  padding: .35rem 2rem .35rem 2rem;
-  font-size: .7rem;
-  font-weight: bolder;
+  padding: .35rem 1.7rem .35rem 1.7rem;
+  font-size: .8rem;
+  font-weight: 400;
   letter-spacing: 5px;
+  text-shadow: 0px 5px 20px black;
 }
 
+.nav-text:hover{
+  opacity: 1;
+  cursor: pointer;
+  /*text-align: center;*/
+}
 .body-content{
   margin: 0 0 0 6rem;
   padding: 0 0 0 1.5rem;
   background: #1C1C1E;
+}
+
+.intext-link{
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color:#4820F2;
+  opacity: .6;
+}
+
+.intext-link:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
 }

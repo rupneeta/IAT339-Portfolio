@@ -56,7 +56,7 @@
 .bttn-md {
   font-size: 20px;
   font-family: inherit;
-  box-shadow: 0px 7px 20px black;
+  box-shadow: 0px 5px 20px black;
   padding: 5px 12px;
 }
 .bttn-sm {
@@ -107,7 +107,7 @@
 }
 .bttn-jelly:hover,
 .bttn-jelly:focus {
-  box-shadow: 0 1px 8px rgba(58,51,53,0.4);
+  box-shadow: 0px 5px 20px black;
   -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
   transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
   -webkit-transform: scale(1.1);
@@ -121,33 +121,16 @@
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-.bttn-jelly.bttn-xs {
-  padding: 3px 8px;
-  font-size: 12px;
-  font-family: inherit;
-}
-.bttn-jelly.bttn-xs:hover,
-.bttn-jelly.bttn-xs:focus {
-  box-shadow: 0 1px 4px rgba(58,51,53,0.4);
-}
-.bttn-jelly.bttn-sm {
-  padding: 4px 10px;
-  font-size: 16px;
-  font-family: inherit;
-}
-.bttn-jelly.bttn-sm:hover,
-.bttn-jelly.bttn-sm:focus {
-  box-shadow: 0 1px 6px rgba(58,51,53,0.4);
-}
+
 .bttn-jelly.bttn-md {
   font-size: 1rem;
   font-family: inherit;
-  margin: 0 1rem 0 1rem;
+  margin: 1rem;
   padding: .5rem 2rem;
 }
 .bttn-jelly.bttn-md:hover,
 .bttn-jelly.bttn-md:focus {
-  box-shadow: 0 1px 8px rgba(58,51,53,0.4);
+  box-shadow: 0px 5px 20px black;
 }
 .bttn-jelly.bttn-lg {
   padding: 8px 15px;
@@ -156,7 +139,7 @@
 }
 .bttn-jelly.bttn-lg:hover,
 .bttn-jelly.bttn-lg:focus {
-  box-shadow: 0 1px 10px rgba(58,51,53,0.4);
+  box-shadow: 0px 5px 20px black;
 }
 .bttn-jelly.bttn-default {
   background: #fff;
@@ -178,6 +161,7 @@
   background: #FAFAFC;
   color: #1C1C1E;
 }
+
 .bttn-jelly.bttn-blck {
   background: #1C1C1E;
   color: #fff;
