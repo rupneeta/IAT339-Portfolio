@@ -27,17 +27,32 @@ body{
 .project-heading{
   text-transform: uppercase;
   letter-spacing: .15em;
-  text-align: center;
-  margin: 2rem 1rem 1rem 1rem;
+  /*text-align: center;*/
+  margin: 2rem .5rem .5rem .5rem;
   padding: 1rem;
   color: #1C1C1E;
+}
+
+.project-subheading{
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  margin-top: 0;
+  font-size: .75rem;
+  margin: 0 1rem 1rem 1rem;
+  padding-left: .5rem;
+  padding-bottom: 1rem;
+  color: #BFBFBF;
+}
+
+.project-title-container{
+  border-left: 8px solid #36FFFF;
 }
 
 .project-info-text{
   font-size: 1rem;
   font-weight: normal;
   color: #535354;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 3rem 1rem 2rem;
 }
 
 #blue-1{
@@ -148,7 +163,8 @@ body{
 .u-list-header{
   color: #1C1C1E;
   font-size: 1.5rem;
-  padding: 0 1rem 0 3rem;
+  padding: 0 1rem 0 2rem;
+  font-size: 1.2rem;
   font-weight:bold;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -159,8 +175,8 @@ body{
   list-style-type: circle;
   text-transform: none;
   font-weight:normal;
-  font-size: 1rem;
-  margin-left: 3rem;
+  font-size: .9rem;
+  margin-left: 2rem;
   padding: .5rem;
   text-transform: uppercase;
 }
