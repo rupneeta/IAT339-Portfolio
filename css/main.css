@@ -52,7 +52,7 @@ body{
   font-size: 1rem;
   font-weight: normal;
   color: #535354;
-  padding: 1rem 3rem 1rem 2rem;
+  padding: 1rem 3rem 0 2rem;
 }
 
 #blue-1{
@@ -178,7 +178,6 @@ body{
   font-size: .9rem;
   margin-left: 2rem;
   padding: .5rem;
-  text-transform: uppercase;
 }
 
 .o-list-number{
@@ -244,6 +243,50 @@ body{
 .intext-link:hover{
   opacity: 1;
   cursor: pointer;
+}
+
+.role-text{
+  background: #FAFAFC;
+  text-transform: uppercase;
+  color: #36FFFF;
+  font-size: 1rem;
+  padding: .2rem 1.5rem;
+  border-radius: 50px;
+  border: 2px solid #36FFFF;
+  margin: 0 .5rem 0 0;
+  display: inline-block;
+  transition: .5s;
+}
+
+.role-text:hover{
+  background: #36FFFF;
+  text-transform: uppercase;
+  color: #FAFAFC;
+  font-size: 1rem;
+  padding: .2rem 1.5rem;
+  border-radius: 50px;
+  border: 2px solid #36FFFF;
+  margin: 0 .5rem 0 0;
+  display: inline-block;
+  transition:.5s;
+}
+
+.role-components{
+  display: block;
+  margin:0 2rem 2rem 2rem;
+}
+
+.bttn-next{
+  padding: 1rem;
+  margin: 1rem;
+  border
+}
+
+#circle {
+    background: #f00;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 a{
