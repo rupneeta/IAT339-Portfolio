@@ -38,6 +38,10 @@
   width: 45%;
 }
 
+.grid-col-1of4{
+  width: 25%;
+}
+
 .grid-col-2of3{
   width: 55%;
 }

@@ -18,6 +18,14 @@
 
   -ms-flex-basis:5em;
   flex-basis: 5em;
-
 }
+
+.block-card{
+  -ms-flex-grow:1;
+  flex-grow: 1;
+
+  -ms-flex-basis:5em;
+  flex-basis: 5em;
+  margin: 1rem;
+
 }

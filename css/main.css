@@ -1,4 +1,3 @@
-
 body{
   font-family: "Proxima Nova", Times, serif;
   color: #FAFAFC;
@@ -103,7 +102,7 @@ body{
   left: 0;
   right: 0;
   bottom: 0;
-  height:600px;
+  height:650px;
   background: #A4D2FF;
 }
 
@@ -120,7 +119,7 @@ body{
 .background-container{
   display: inline-block;
   width: 100%;
-  margin: 3rem 0 3rem 0;
+  margin: 3rem 2rem 3rem 2rem;
   color:#FAFAFC;
   background: #1C1C1E;
 }
@@ -137,7 +136,15 @@ body{
 
 .project-image-block{
   display: block;
-  margin: 0;
+  vertical-align: middle;
+  margin: 3rem 0rem 3rem 0;
+}
+
+.project-img{
+  width: 100%;
+}
+.project-img{
+  width: 100%;
 }
 
 .blocks{
@@ -194,6 +201,7 @@ body{
   display: table-cell;
   vertical-align: middle;
   float: left;
+  z-index: 1;
   background: #141414;
   /*background: white;*/
   box-shadow: 0px 7px 20px black;
@@ -287,6 +295,132 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+.project-card-container{
+  display: block;
+  margin: 0 1rem 0rem 1rem;
+}
+.project-card{
+  height:400px;
+  background: #4820F2;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: block;
+  box-shadow: 0px 7px 20px black;
+}
+
+.project-text-bg{
+  background: #FAFAFC;
+  border-bottom-right-radius:10px;
+  border-bottom-left-radius:10px;
+  display: block;
+  box-shadow: 0px 7px 20px black;
+}
+
+.project-text{
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #1C1C1E;
+  margin: 0;
+  padding: 2rem 4rem 2rem 4rem;
+
+}
+
+.gif{
+  position:relative;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width: 100%;
+}
+.tint {
+  margin: 0;
+  cursor: pointer;
+}
+
+.t1{
+  background: rgb(255,0,0,.5);
+}
+
+.header-container{
+  width: 100%;
+  margin: 0;
+  top:0;
+  left: 0;
+  right: 0;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.text-container{
+  z-index: 1;
+}
+.header{
+  /*z-index: 1;*/
+  font-size: 5rem;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.hero-image{
+  /*background-image:*/
+  position:relative;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width: 100%;
+}
+.centered {
+    position: relative;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: right;
+    margin: 0;
+    color: #FAFAFC;
+    text-shadow: -5px 10px 45px black;
+}
+.text-header{
+  text-align: right;
+  position: absolute;
+  z-index: 10;
+  top:30%;
+  left: 20%;
+  /*background-color: black;*/
+
+}
+.centered-2 {
+    position: relative;
+    font-size: 1rem;
+    margin: 0;
+    /*text-transform: uppercase;*/
+    letter-spacing: 5px;
+    text-align: right;
+}
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
+}
+
+.header-gif{
+width: 100%;
+margin: 0;
+}
+
+.overlay{
+  background-color: #4820F2;
+  z-index: 1;
 }
 
 a{
