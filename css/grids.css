@@ -33,7 +33,9 @@
 	flex-grow: 1;
 	width:auto;
 }
-
+.grid-col-3s{
+	width: 30%;
+}
 .grid-col-1of3{
   width: 45%;
 }
