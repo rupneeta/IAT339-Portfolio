@@ -6,7 +6,7 @@ body{
   letter-spacing: .07em;
 }
 
-.title-headings{
+.project-headings{
   text-transform: uppercase;
   letter-spacing: .07em;
   font-size: 2.5rem;
@@ -24,10 +24,39 @@ body{
   border-bottom: 2px solid #D1D1D1;
 }
 
+.template-project-container{
+  /*text-align: right;*/
+  position: relative;
+  margin: 3.5rem 65rem 5rem 0;
+  padding:.5rem 0 0 3rem;
+  /*border-left: 10px solid #36FFFF;*/
+}
+
+.template-project-title{
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  font-size: 3rem;
+  text-shadow: 0px 7px 50px black;
+  padding: 0;
+  padding-right:0;
+  margin-bottom: .5rem;
+  text-align: right;
+  /*margin: 0;*/
+}
+
+.template-project-subheading{
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  font-size: 1rem;
+  text-shadow: 0px 7px 50px black;
+  /*padding-right:1rem;*/
+  margin: 0;
+  text-align: right;
+}
+
 .project-heading{
   text-transform: uppercase;
   letter-spacing: .15em;
-  /*text-align: center;*/
   margin: 2rem .5rem .5rem .5rem;
   padding: 1rem;
   color: #1C1C1E;
@@ -38,8 +67,8 @@ body{
   letter-spacing: .15em;
   margin-top: 0;
   font-size: .75rem;
-  margin: 0 1rem 1rem 1rem;
-  padding-left: .5rem;
+  margin: 0 1rem 1rem 0;
+  /*padding-left: .5rem;*/
   padding-bottom: 1rem;
   color: #BFBFBF;
 }
@@ -529,6 +558,7 @@ a{
 
 .about-role-components{
   display: block;
+  margin-bottom: 2rem;
   /*padding:1rem 2rem 0 5rem;*/
 }
 
@@ -562,4 +592,8 @@ a{
 .projects-container{
   padding:1rem;
   display: block
+}
+
+.list-container{
+  margin-bottom: 3rem;
 }
